@@ -4,3 +4,5 @@
 
 ### archivos con la diferencia de dos ramas
 #### diff --name-status rama1 rama2
+
+<p style="color:red">hola</p>
