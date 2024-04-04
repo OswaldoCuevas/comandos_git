@@ -6,4 +6,4 @@
 #### diff --name-status rama1 rama2
 
 ### archivos que se modificaron dado dos commits
-#### git show --name-only --pretty=format: <hash> <hash> | sort | uniq
+#### git show --name-only --pretty=format: hash_inicio hash_fin | sort | uniq
