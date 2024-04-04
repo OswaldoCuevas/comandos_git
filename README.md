@@ -5,4 +5,5 @@
 ### archivos con la diferencia de dos ramas
 #### diff --name-status rama1 rama2
 
-<p style="color:red"><b>hola</b></p>
+### archivos que se modificaron dado dos commits
+#### git show --name-only --pretty=format: <hash> <hash> | sort | uniq
