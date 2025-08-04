@@ -6,7 +6,7 @@
 #### diff --name-status rama1 rama2
 
 ### archivos que se modificaron dado dos commits
-#### git show --name-only --pretty=format: hash_inicio..hash_fin | sort | uniq
+#### git diff --name-only hash_inicio^..hash_fin | sort | Get-Unique
 
 ### ver cuando se modificó el archivo ye le commits que se realizó
 #### git log --follow --pretty=format:"%ad - %h - %s" --date=short -- archivo
